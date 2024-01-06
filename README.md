@@ -12,15 +12,16 @@ To run the project, it will be necessary to install the following programs:
 - [Maven 3.6.3: Required for building the Java project](https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip)
 - https://allurereport.org/docs/gettingstarted-installation/
 
-*Don't forget to configure the environment variables for execution.
+Don't forget to configure the environment variables for execution.
 - [Tutorial for configuring environment variables](https://medium.com/beelabacademy/configurando-vari%C3%A1veis-de-ambiente-java-home-e-maven-home-no-windows-e-unix-d9461f783c26#:~:text=Bom%2C%20mas%20o%20que%20s%C3%A3o,arquivos%20necess%C3%A1rios%2C%20inclusive%20os%20bin%C3%A1rios.)
 - [IntelliJ: For project development](https://www.jetbrains.com/pt-br/idea/)
 
 
 Upon opening the project, execute the following command in the root folder to install dependencies:
 
-
-mvn clean install
+```bash
+mvn clean install 
+```
 
 
 ## Execution using IDE
@@ -33,7 +34,9 @@ To run via IDE, simply right-click on RunTest and click "Run, RunTest."
 
 In a terminal execute the command line:
 
+```bash
 mvn clean test 
+```
 
 # Browsers
 
